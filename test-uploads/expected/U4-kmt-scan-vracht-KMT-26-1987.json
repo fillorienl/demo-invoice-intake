@@ -1,0 +1,55 @@
+{
+  "supplier": {
+    "name": "Kabel & Montage Twente B.V.",
+    "address": "Twentepoort Oost 19, 7609 RG Almelo",
+    "vat_number": "NL809335217B01",
+    "kvk_number": "06124478",
+    "iban": "NL95ABNA0624190358"
+  },
+  "invoice_number": "KMT/26/1987",
+  "invoice_date": "2026-10-17",
+  "due_date": "2026-11-16",
+  "po_reference": "PO-2026-0440",
+  "language": "nl",
+  "lines": [
+    {
+      "supplier_article_code": "KMT-IB16-GR",
+      "description": "Installatiebuis 16 mm grijs, 4 m",
+      "unit": "lengte",
+      "quantity": 50,
+      "unit_price": 1.85,
+      "line_total": 92.5,
+      "vat_rate": 21
+    },
+    {
+      "supplier_article_code": "KMT-KS-6-M6",
+      "description": "Kabelschoen 6 mm2 M6 vertind, zak a 100",
+      "unit": "zak",
+      "quantity": 10,
+      "unit_price": 9.6,
+      "line_total": 96.0,
+      "vat_rate": 21
+    },
+    {
+      "supplier_article_code": null,
+      "description": "Vrachtkosten (order onder EUR 250)",
+      "unit": "x",
+      "quantity": 1,
+      "unit_price": 12.5,
+      "line_total": 12.5,
+      "vat_rate": 21
+    }
+  ],
+  "subtotal": 201.0,
+  "vat_lines": [
+    {
+      "rate": 21,
+      "base": 201.0,
+      "amount": 42.21
+    }
+  ],
+  "total": 243.21,
+  "currency": "EUR",
+  "reverse_charge": false,
+  "notes": null
+}

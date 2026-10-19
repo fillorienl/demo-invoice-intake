@@ -1,0 +1,46 @@
+{
+  "supplier": {
+    "name": "HydroParts Benelux B.V.",
+    "address": "Achtseweg Noord 7, 5651 GG Eindhoven",
+    "vat_number": "NL861027744B01",
+    "kvk_number": "17289034",
+    "iban": "NL06RABO0317465912"
+  },
+  "invoice_number": "HPB-26-004117",
+  "invoice_date": "2026-10-10",
+  "due_date": "2026-11-09",
+  "po_reference": "2026-0418",
+  "language": "nl",
+  "lines": [
+    {
+      "supplier_article_code": "HP-12L38-BSP",
+      "description": "Hydr. koppeling recht 12L - 3/8\" BSP",
+      "unit": "st",
+      "quantity": 100,
+      "unit_price": 4.45,
+      "line_total": 445.0,
+      "vat_rate": 21
+    },
+    {
+      "supplier_article_code": "HP-R2-38-M",
+      "description": "Hydr. slang SAE 100 R2 3/8\" per mtr",
+      "unit": "m",
+      "quantity": 250,
+      "unit_price": 7.4,
+      "line_total": 1850.0,
+      "vat_rate": 21
+    }
+  ],
+  "subtotal": 2295.0,
+  "vat_lines": [
+    {
+      "rate": 21,
+      "base": 2295.0,
+      "amount": 481.95
+    }
+  ],
+  "total": 2776.95,
+  "currency": "EUR",
+  "reverse_charge": false,
+  "notes": null
+}

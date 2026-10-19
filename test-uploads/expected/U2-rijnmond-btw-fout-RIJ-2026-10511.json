@@ -1,0 +1,55 @@
+{
+  "supplier": {
+    "name": "Bevestigingstechniek Rijnmond B.V.",
+    "address": "Waalhaven Z.z. 41, 3089 JH Rotterdam",
+    "vat_number": "NL822413905B01",
+    "kvk_number": "24301187",
+    "iban": "NL26ABNA0518822731"
+  },
+  "invoice_number": "RIJ-2026-10511",
+  "invoice_date": "2026-10-16",
+  "due_date": "2026-11-15",
+  "po_reference": "PO-2026-0436",
+  "language": "nl",
+  "lines": [
+    {
+      "supplier_article_code": "BR-933-0630-A2",
+      "description": "Zeskantbout M6x30 RVS A2 DIN933 (doos 200)",
+      "unit": "doos",
+      "quantity": 25,
+      "unit_price": 10.4,
+      "line_total": 260.0,
+      "vat_rate": 21
+    },
+    {
+      "supplier_article_code": "BR-934-06-A2",
+      "description": "Zeskantmoer M6 RVS A2 DIN934 (doos 500)",
+      "unit": "doos",
+      "quantity": 12,
+      "unit_price": 11.75,
+      "line_total": 141.0,
+      "vat_rate": 21
+    },
+    {
+      "supplier_article_code": "BR-933-1280-A4",
+      "description": "Zeskantbout M12x80 RVS A4 DIN933 (doos 25)",
+      "unit": "doos",
+      "quantity": 10,
+      "unit_price": 21.9,
+      "line_total": 219.0,
+      "vat_rate": 21
+    }
+  ],
+  "subtotal": 620.0,
+  "vat_lines": [
+    {
+      "rate": 21,
+      "base": 620.0,
+      "amount": 130.02
+    }
+  ],
+  "total": 750.02,
+  "currency": "EUR",
+  "reverse_charge": false,
+  "notes": null
+}

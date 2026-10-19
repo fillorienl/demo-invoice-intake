@@ -1,0 +1,46 @@
+{
+  "supplier": {
+    "name": "SafeWork PPE B.V.",
+    "address": "Atoomweg 52, 3542 AB Utrecht",
+    "vat_number": "NL853390128B01",
+    "kvk_number": "30195562",
+    "iban": "NL49INGB0007731590"
+  },
+  "invoice_number": "SWP-2026-0789",
+  "invoice_date": "2026-10-12",
+  "due_date": "2026-10-26",
+  "po_reference": "PO-2026-0421",
+  "language": "nl",
+  "lines": [
+    {
+      "supplier_article_code": "SW-NIT-10",
+      "description": "Nitril werkhandschoen, maat 10 (XL)",
+      "unit": "paar",
+      "quantity": 200,
+      "unit_price": 1.35,
+      "line_total": 270.0,
+      "vat_rate": 21
+    },
+    {
+      "supplier_article_code": "SW-EN166-CL",
+      "description": "Veiligheidsbril EN166, heldere lens",
+      "unit": "st",
+      "quantity": 100,
+      "unit_price": 2.9,
+      "line_total": 290.0,
+      "vat_rate": 21
+    }
+  ],
+  "subtotal": 560.0,
+  "vat_lines": [
+    {
+      "rate": 21,
+      "base": 560.0,
+      "amount": 117.6
+    }
+  ],
+  "total": 677.6,
+  "currency": "EUR",
+  "reverse_charge": false,
+  "notes": null
+}

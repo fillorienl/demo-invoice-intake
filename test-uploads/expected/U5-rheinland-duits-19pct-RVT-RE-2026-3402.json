@@ -1,0 +1,46 @@
+{
+  "supplier": {
+    "name": "Rheinland Verbindungstechnik GmbH",
+    "address": "Hansaallee 233, 40549 Düsseldorf, Germany",
+    "vat_number": "DE312845097",
+    "kvk_number": null,
+    "iban": "DE21370100500582749163"
+  },
+  "invoice_number": "RVT-RE-2026-3402",
+  "invoice_date": "2026-10-17",
+  "due_date": "2026-11-16",
+  "po_reference": "PO-2026-0441",
+  "language": "de",
+  "lines": [
+    {
+      "supplier_article_code": "RVT-933-1030",
+      "description": "Sechskantschraube M10x30 DIN933 A2, VE 100",
+      "unit": "VE",
+      "quantity": 30,
+      "unit_price": 16.2,
+      "line_total": 486.0,
+      "vat_rate": 19
+    },
+    {
+      "supplier_article_code": "RVT-985-10",
+      "description": "Sicherungsmutter M10 DIN985 A2, VE 100",
+      "unit": "VE",
+      "quantity": 30,
+      "unit_price": 9.4,
+      "line_total": 282.0,
+      "vat_rate": 19
+    }
+  ],
+  "subtotal": 768.0,
+  "vat_lines": [
+    {
+      "rate": 19,
+      "base": 768.0,
+      "amount": 145.92
+    }
+  ],
+  "total": 913.92,
+  "currency": "EUR",
+  "reverse_charge": false,
+  "notes": null
+}

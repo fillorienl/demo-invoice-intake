@@ -1,0 +1,967 @@
+{
+  "company": {
+    "name": "Veldhuis Industrial Supply B.V.",
+    "address": "Ceintuurbaan 118",
+    "postcode_city": "8024 AA Zwolle",
+    "country": "NL",
+    "vat_number": "NL863120449B01",
+    "kvk_number": "05094417"
+  },
+  "suppliers": [
+    {
+      "id": "CR-2001",
+      "name": "Bevestigingstechniek Rijnmond B.V.",
+      "address": "Waalhaven Z.z. 41, 3089 JH Rotterdam",
+      "country": "NL",
+      "vat_number": "NL822413905B01",
+      "kvk_number": "24301187",
+      "iban": "NL26ABNA0518822731",
+      "payment_terms_days": 30
+    },
+    {
+      "id": "CR-2002",
+      "name": "HydroParts Benelux B.V.",
+      "address": "Achtseweg Noord 7, 5651 GG Eindhoven",
+      "country": "NL",
+      "vat_number": "NL861027744B01",
+      "kvk_number": "17289034",
+      "iban": "NL06RABO0317465912",
+      "payment_terms_days": 30
+    },
+    {
+      "id": "CR-2003",
+      "name": "SafeWork PPE B.V.",
+      "address": "Atoomweg 52, 3542 AB Utrecht",
+      "country": "NL",
+      "vat_number": "NL853390128B01",
+      "kvk_number": "30195562",
+      "iban": "NL49INGB0007731590",
+      "payment_terms_days": 14
+    },
+    {
+      "id": "CR-2004",
+      "name": "Kabel & Montage Twente B.V.",
+      "address": "Twentepoort Oost 19, 7609 RG Almelo",
+      "country": "NL",
+      "vat_number": "NL809335217B01",
+      "kvk_number": "06124478",
+      "iban": "NL95ABNA0624190358",
+      "payment_terms_days": 30
+    },
+    {
+      "id": "CR-2005",
+      "name": "Rheinland Verbindungstechnik GmbH",
+      "address": "Hansaallee 233, 40549 Düsseldorf, Germany",
+      "country": "DE",
+      "vat_number": "DE312845097",
+      "kvk_number": null,
+      "iban": "DE21370100500582749163",
+      "payment_terms_days": 30
+    }
+  ],
+  "purchase_orders": [
+    {
+      "number": "PO-2026-0398",
+      "supplier_id": "CR-2001",
+      "date": "2026-09-18",
+      "lines": [
+        {
+          "line_no": 1,
+          "supplier_article_code": "BR-933-1060-A2",
+          "sku": "VIS-BT-M10x60-A2",
+          "description": "Zeskantbout M10x60 RVS A2 DIN933",
+          "unit": "doos 50",
+          "qty_ordered": 20,
+          "unit_price": 19.8,
+          "qty_invoiced": 20
+        },
+        {
+          "line_no": 2,
+          "supplier_article_code": "BR-934-10-A2",
+          "sku": "VIS-MO-M10-A2",
+          "description": "Zeskantmoer M10 RVS A2 DIN934",
+          "unit": "doos 100",
+          "qty_ordered": 20,
+          "unit_price": 8.15,
+          "qty_invoiced": 20
+        }
+      ]
+    },
+    {
+      "number": "PO-2026-0412",
+      "supplier_id": "CR-2001",
+      "date": "2026-10-02",
+      "lines": [
+        {
+          "line_no": 1,
+          "supplier_article_code": "BR-933-0840-A2",
+          "sku": "VIS-BT-M8x40-A2",
+          "description": "Zeskantbout M8x40 RVS A2 DIN933",
+          "unit": "doos 100",
+          "qty_ordered": 40,
+          "unit_price": 12.6,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 2,
+          "supplier_article_code": "BR-933-0850-A2",
+          "sku": "VIS-BT-M8x50-A2",
+          "description": "Zeskantbout M8x50 RVS A2 DIN933",
+          "unit": "doos 100",
+          "qty_ordered": 30,
+          "unit_price": 14.3,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 3,
+          "supplier_article_code": "BR-934-08-A2",
+          "sku": "VIS-MO-M8-A2",
+          "description": "Zeskantmoer M8 RVS A2 DIN934",
+          "unit": "doos 200",
+          "qty_ordered": 50,
+          "unit_price": 6.45,
+          "qty_invoiced": 0
+        }
+      ]
+    },
+    {
+      "number": "PO-2026-0418",
+      "supplier_id": "CR-2002",
+      "date": "2026-10-05",
+      "lines": [
+        {
+          "line_no": 1,
+          "supplier_article_code": "HP-12L38-BSP",
+          "sku": "VIS-HF-12L-38",
+          "description": "Hydraulische koppeling 12L 3/8 BSP",
+          "unit": "stuk",
+          "qty_ordered": 100,
+          "unit_price": 4.1,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 2,
+          "supplier_article_code": "HP-R2-38-M",
+          "sku": "VIS-HS-R2-38-1M",
+          "description": "Hydraulische slang R2 3/8",
+          "unit": "meter",
+          "qty_ordered": 250,
+          "unit_price": 7.4,
+          "qty_invoiced": 0
+        }
+      ]
+    },
+    {
+      "number": "PO-2026-0421",
+      "supplier_id": "CR-2003",
+      "date": "2026-10-06",
+      "lines": [
+        {
+          "line_no": 1,
+          "supplier_article_code": "SW-NIT-10",
+          "sku": "VIS-PPE-HS-10",
+          "description": "Werkhandschoen nitril maat 10",
+          "unit": "paar",
+          "qty_ordered": 200,
+          "unit_price": 1.35,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 2,
+          "supplier_article_code": "SW-EN166-CL",
+          "sku": "VIS-PPE-VB-01",
+          "description": "Veiligheidsbril helder EN166",
+          "unit": "stuk",
+          "qty_ordered": 100,
+          "unit_price": 2.9,
+          "qty_invoiced": 0
+        }
+      ]
+    },
+    {
+      "number": "PO-2026-0425",
+      "supplier_id": "CR-2004",
+      "date": "2026-10-07",
+      "lines": [
+        {
+          "line_no": 1,
+          "supplier_article_code": "KMT-KB200-48Z",
+          "sku": "VIS-KB-200-ZW",
+          "description": "Kabelbinder 200x4.8 zwart",
+          "unit": "zak 100",
+          "qty_ordered": 80,
+          "unit_price": 2.45,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 2,
+          "supplier_article_code": "KMT-KB300-48Z",
+          "sku": "VIS-KB-300-ZW",
+          "description": "Kabelbinder 300x4.8 zwart",
+          "unit": "zak 100",
+          "qty_ordered": 40,
+          "unit_price": 3.6,
+          "qty_invoiced": 0
+        }
+      ]
+    },
+    {
+      "number": "PO-2026-0427",
+      "supplier_id": "CR-2005",
+      "date": "2026-10-07",
+      "lines": [
+        {
+          "line_no": 1,
+          "supplier_article_code": "RVT-912-0620",
+          "sku": "VIS-CS-M6x20-A2",
+          "description": "Cilinderkopschroef M6x20 RVS A2 DIN912",
+          "unit": "doos 200",
+          "qty_ordered": 25,
+          "unit_price": 11.8,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 2,
+          "supplier_article_code": "RVT-125-06",
+          "sku": "VIS-SR-M6-A2",
+          "description": "Sluitring M6 RVS A2 DIN125",
+          "unit": "doos 500",
+          "qty_ordered": 20,
+          "unit_price": 7.9,
+          "qty_invoiced": 0
+        }
+      ]
+    },
+    {
+      "number": "PO-2026-0430",
+      "supplier_id": "CR-2002",
+      "date": "2026-10-09",
+      "lines": [
+        {
+          "line_no": 1,
+          "supplier_article_code": "HP-15L12-BSP",
+          "sku": "VIS-HF-15L-12",
+          "description": "Hydraulische koppeling 15L 1/2 BSP",
+          "unit": "stuk",
+          "qty_ordered": 60,
+          "unit_price": 5.2,
+          "qty_invoiced": 0
+        }
+      ]
+    },
+    {
+      "number": "PO-2026-0433",
+      "supplier_id": "CR-2002",
+      "date": "2026-10-12",
+      "lines": [
+        {
+          "line_no": 1,
+          "supplier_article_code": "HP-06L18-RK",
+          "sku": "VIS-HF-06L18-RK",
+          "description": "Rechte koppeling 06L 1/8 BSP",
+          "unit": "stuk",
+          "qty_ordered": 10,
+          "unit_price": 0.82,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 2,
+          "supplier_article_code": "HP-06L18-HK",
+          "sku": "VIS-HF-06L18-HK",
+          "description": "Haakse koppeling 90gr 06L 1/8 BSP",
+          "unit": "stuk",
+          "qty_ordered": 25,
+          "unit_price": 2.78,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 3,
+          "supplier_article_code": "HP-06L-MR",
+          "sku": "VIS-HF-06L-MR",
+          "description": "Wartelmoer 06L staal verzinkt",
+          "unit": "stuk",
+          "qty_ordered": 20,
+          "unit_price": 7.15,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 4,
+          "supplier_article_code": "HP-06L-SR",
+          "sku": "VIS-HF-06L-SR",
+          "description": "Snijring 06L staal",
+          "unit": "stuk",
+          "qty_ordered": 50,
+          "unit_price": 1.37,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 5,
+          "supplier_article_code": "HP-08L14-RK",
+          "sku": "VIS-HF-08L14-RK",
+          "description": "Rechte koppeling 08L 1/4 BSP",
+          "unit": "stuk",
+          "qty_ordered": 40,
+          "unit_price": 0.88,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 6,
+          "supplier_article_code": "HP-08L14-HK",
+          "sku": "VIS-HF-08L14-HK",
+          "description": "Haakse koppeling 90gr 08L 1/4 BSP",
+          "unit": "stuk",
+          "qty_ordered": 10,
+          "unit_price": 2.55,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 7,
+          "supplier_article_code": "HP-08L-MR",
+          "sku": "VIS-HF-08L-MR",
+          "description": "Wartelmoer 08L staal verzinkt",
+          "unit": "stuk",
+          "qty_ordered": 50,
+          "unit_price": 5.96,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 8,
+          "supplier_article_code": "HP-08L-SR",
+          "sku": "VIS-HF-08L-SR",
+          "description": "Snijring 08L staal",
+          "unit": "stuk",
+          "qty_ordered": 50,
+          "unit_price": 2.37,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 9,
+          "supplier_article_code": "HP-10L38-RK",
+          "sku": "VIS-HF-10L38-RK",
+          "description": "Rechte koppeling 10L 3/8 BSP",
+          "unit": "stuk",
+          "qty_ordered": 50,
+          "unit_price": 4.33,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 10,
+          "supplier_article_code": "HP-10L38-HK",
+          "sku": "VIS-HF-10L38-HK",
+          "description": "Haakse koppeling 90gr 10L 3/8 BSP",
+          "unit": "stuk",
+          "qty_ordered": 40,
+          "unit_price": 5.84,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 11,
+          "supplier_article_code": "HP-10L-MR",
+          "sku": "VIS-HF-10L-MR",
+          "description": "Wartelmoer 10L staal verzinkt",
+          "unit": "stuk",
+          "qty_ordered": 10,
+          "unit_price": 7.35,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 12,
+          "supplier_article_code": "HP-10L-SR",
+          "sku": "VIS-HF-10L-SR",
+          "description": "Snijring 10L staal",
+          "unit": "stuk",
+          "qty_ordered": 20,
+          "unit_price": 6.81,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 13,
+          "supplier_article_code": "HP-12L38-RK",
+          "sku": "VIS-HF-12L38-RK",
+          "description": "Rechte koppeling 12L 3/8 BSP",
+          "unit": "stuk",
+          "qty_ordered": 25,
+          "unit_price": 3.07,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 14,
+          "supplier_article_code": "HP-12L38-HK",
+          "sku": "VIS-HF-12L38-HK",
+          "description": "Haakse koppeling 90gr 12L 3/8 BSP",
+          "unit": "stuk",
+          "qty_ordered": 20,
+          "unit_price": 9.12,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 15,
+          "supplier_article_code": "HP-12L-MR",
+          "sku": "VIS-HF-12L-MR",
+          "description": "Wartelmoer 12L staal verzinkt",
+          "unit": "stuk",
+          "qty_ordered": 25,
+          "unit_price": 1.51,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 16,
+          "supplier_article_code": "HP-12L-SR",
+          "sku": "VIS-HF-12L-SR",
+          "description": "Snijring 12L staal",
+          "unit": "stuk",
+          "qty_ordered": 40,
+          "unit_price": 1.46,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 17,
+          "supplier_article_code": "HP-15L12-RK",
+          "sku": "VIS-HF-15L12-RK",
+          "description": "Rechte koppeling 15L 1/2 BSP",
+          "unit": "stuk",
+          "qty_ordered": 25,
+          "unit_price": 5.97,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 18,
+          "supplier_article_code": "HP-15L12-HK",
+          "sku": "VIS-HF-15L12-HK",
+          "description": "Haakse koppeling 90gr 15L 1/2 BSP",
+          "unit": "stuk",
+          "qty_ordered": 10,
+          "unit_price": 7.09,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 19,
+          "supplier_article_code": "HP-15L-MR",
+          "sku": "VIS-HF-15L-MR",
+          "description": "Wartelmoer 15L staal verzinkt",
+          "unit": "stuk",
+          "qty_ordered": 50,
+          "unit_price": 1.71,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 20,
+          "supplier_article_code": "HP-15L-SR",
+          "sku": "VIS-HF-15L-SR",
+          "description": "Snijring 15L staal",
+          "unit": "stuk",
+          "qty_ordered": 40,
+          "unit_price": 1.3,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 21,
+          "supplier_article_code": "HP-18L12-RK",
+          "sku": "VIS-HF-18L12-RK",
+          "description": "Rechte koppeling 18L 1/2 BSP",
+          "unit": "stuk",
+          "qty_ordered": 25,
+          "unit_price": 7.98,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 22,
+          "supplier_article_code": "HP-18L12-HK",
+          "sku": "VIS-HF-18L12-HK",
+          "description": "Haakse koppeling 90gr 18L 1/2 BSP",
+          "unit": "stuk",
+          "qty_ordered": 50,
+          "unit_price": 8.48,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 23,
+          "supplier_article_code": "HP-18L-MR",
+          "sku": "VIS-HF-18L-MR",
+          "description": "Wartelmoer 18L staal verzinkt",
+          "unit": "stuk",
+          "qty_ordered": 25,
+          "unit_price": 5.74,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 24,
+          "supplier_article_code": "HP-18L-SR",
+          "sku": "VIS-HF-18L-SR",
+          "description": "Snijring 18L staal",
+          "unit": "stuk",
+          "qty_ordered": 10,
+          "unit_price": 1.01,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 25,
+          "supplier_article_code": "HP-22L34-RK",
+          "sku": "VIS-HF-22L34-RK",
+          "description": "Rechte koppeling 22L 3/4 BSP",
+          "unit": "stuk",
+          "qty_ordered": 20,
+          "unit_price": 7.48,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 26,
+          "supplier_article_code": "HP-22L34-HK",
+          "sku": "VIS-HF-22L34-HK",
+          "description": "Haakse koppeling 90gr 22L 3/4 BSP",
+          "unit": "stuk",
+          "qty_ordered": 10,
+          "unit_price": 8.21,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 27,
+          "supplier_article_code": "HP-22L-MR",
+          "sku": "VIS-HF-22L-MR",
+          "description": "Wartelmoer 22L staal verzinkt",
+          "unit": "stuk",
+          "qty_ordered": 10,
+          "unit_price": 3.98,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 28,
+          "supplier_article_code": "HP-22L-SR",
+          "sku": "VIS-HF-22L-SR",
+          "description": "Snijring 22L staal",
+          "unit": "stuk",
+          "qty_ordered": 40,
+          "unit_price": 6.26,
+          "qty_invoiced": 0
+        }
+      ]
+    },
+    {
+      "number": "PO-2026-0436",
+      "supplier_id": "CR-2001",
+      "date": "2026-10-13",
+      "lines": [
+        {
+          "line_no": 1,
+          "supplier_article_code": "BR-933-0630-A2",
+          "sku": "VIS-BT-M6x30-A2",
+          "description": "Zeskantbout M6x30 RVS A2 DIN933",
+          "unit": "doos 200",
+          "qty_ordered": 25,
+          "unit_price": 10.4,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 2,
+          "supplier_article_code": "BR-934-06-A2",
+          "sku": "VIS-MO-M6-A2",
+          "description": "Zeskantmoer M6 RVS A2 DIN934",
+          "unit": "doos 500",
+          "qty_ordered": 12,
+          "unit_price": 11.75,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 3,
+          "supplier_article_code": "BR-933-1280-A4",
+          "sku": "VIS-BT-M12x80-A4",
+          "description": "Zeskantbout M12x80 RVS A4 DIN933",
+          "unit": "doos 25",
+          "qty_ordered": 10,
+          "unit_price": 21.9,
+          "qty_invoiced": 0
+        }
+      ]
+    },
+    {
+      "number": "PO-2026-0438",
+      "supplier_id": "CR-2003",
+      "date": "2026-10-13",
+      "lines": [
+        {
+          "line_no": 1,
+          "supplier_article_code": "SW-OD-SNR37",
+          "sku": "VIS-PPE-OD-37",
+          "description": "Oordoppen SNR 37 (doos 200 paar)",
+          "unit": "doos",
+          "qty_ordered": 15,
+          "unit_price": 24.5,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 2,
+          "supplier_article_code": "SW-HELM-WIT",
+          "sku": "VIS-PPE-HM-WT",
+          "description": "Veiligheidshelm wit EN397",
+          "unit": "stuk",
+          "qty_ordered": 30,
+          "unit_price": 8.95,
+          "qty_invoiced": 0
+        }
+      ]
+    },
+    {
+      "number": "PO-2026-0440",
+      "supplier_id": "CR-2004",
+      "date": "2026-10-14",
+      "lines": [
+        {
+          "line_no": 1,
+          "supplier_article_code": "KMT-IB16-GR",
+          "sku": "VIS-IB-16-GR",
+          "description": "Installatiebuis 16 mm grijs, lengte 4 m",
+          "unit": "lengte",
+          "qty_ordered": 50,
+          "unit_price": 1.85,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 2,
+          "supplier_article_code": "KMT-KS-6-M6",
+          "sku": "VIS-KS-6-M6",
+          "description": "Kabelschoen 6 mm2 M6 vertind (zak 100)",
+          "unit": "zak",
+          "qty_ordered": 10,
+          "unit_price": 9.6,
+          "qty_invoiced": 0
+        }
+      ]
+    },
+    {
+      "number": "PO-2026-0441",
+      "supplier_id": "CR-2005",
+      "date": "2026-10-14",
+      "lines": [
+        {
+          "line_no": 1,
+          "supplier_article_code": "RVT-933-1030",
+          "sku": "VIS-BT-M10x30-A2",
+          "description": "Zeskantbout M10x30 RVS A2 DIN933",
+          "unit": "doos 100",
+          "qty_ordered": 30,
+          "unit_price": 16.2,
+          "qty_invoiced": 0
+        },
+        {
+          "line_no": 2,
+          "supplier_article_code": "RVT-985-10",
+          "sku": "VIS-BM-M10-A2",
+          "description": "Borgmoer M10 RVS A2 DIN985",
+          "unit": "doos 100",
+          "qty_ordered": 30,
+          "unit_price": 9.4,
+          "qty_invoiced": 0
+        }
+      ]
+    }
+  ],
+  "goods_receipts": [
+    {
+      "number": "GR-2026-1071",
+      "po_number": "PO-2026-0398",
+      "date": "2026-09-24",
+      "lines": [
+        {
+          "line_no": 1,
+          "qty": 20
+        },
+        {
+          "line_no": 2,
+          "qty": 20
+        }
+      ]
+    },
+    {
+      "number": "GR-2026-1102",
+      "po_number": "PO-2026-0412",
+      "date": "2026-10-08",
+      "lines": [
+        {
+          "line_no": 1,
+          "qty": 40
+        },
+        {
+          "line_no": 2,
+          "qty": 30
+        },
+        {
+          "line_no": 3,
+          "qty": 50
+        }
+      ]
+    },
+    {
+      "number": "GR-2026-1109",
+      "po_number": "PO-2026-0418",
+      "date": "2026-10-09",
+      "lines": [
+        {
+          "line_no": 1,
+          "qty": 100
+        },
+        {
+          "line_no": 2,
+          "qty": 250
+        }
+      ]
+    },
+    {
+      "number": "GR-2026-1115",
+      "po_number": "PO-2026-0421",
+      "date": "2026-10-12",
+      "note": "Handschoenen: 150 van 200 paar geleverd, rest in backorder",
+      "lines": [
+        {
+          "line_no": 1,
+          "qty": 150
+        },
+        {
+          "line_no": 2,
+          "qty": 100
+        }
+      ]
+    },
+    {
+      "number": "GR-2026-1117",
+      "po_number": "PO-2026-0425",
+      "date": "2026-10-12",
+      "lines": [
+        {
+          "line_no": 1,
+          "qty": 80
+        },
+        {
+          "line_no": 2,
+          "qty": 40
+        }
+      ]
+    },
+    {
+      "number": "GR-2026-1118",
+      "po_number": "PO-2026-0427",
+      "date": "2026-10-13",
+      "lines": [
+        {
+          "line_no": 1,
+          "qty": 25
+        },
+        {
+          "line_no": 2,
+          "qty": 20
+        }
+      ]
+    },
+    {
+      "number": "GR-2026-1124",
+      "po_number": "PO-2026-0430",
+      "date": "2026-10-14",
+      "lines": [
+        {
+          "line_no": 1,
+          "qty": 60
+        }
+      ]
+    },
+    {
+      "number": "GR-2026-1131",
+      "po_number": "PO-2026-0433",
+      "date": "2026-10-15",
+      "lines": [
+        {
+          "line_no": 1,
+          "qty": 10
+        },
+        {
+          "line_no": 2,
+          "qty": 25
+        },
+        {
+          "line_no": 3,
+          "qty": 20
+        },
+        {
+          "line_no": 4,
+          "qty": 50
+        },
+        {
+          "line_no": 5,
+          "qty": 40
+        },
+        {
+          "line_no": 6,
+          "qty": 10
+        },
+        {
+          "line_no": 7,
+          "qty": 50
+        },
+        {
+          "line_no": 8,
+          "qty": 50
+        },
+        {
+          "line_no": 9,
+          "qty": 50
+        },
+        {
+          "line_no": 10,
+          "qty": 40
+        },
+        {
+          "line_no": 11,
+          "qty": 10
+        },
+        {
+          "line_no": 12,
+          "qty": 20
+        },
+        {
+          "line_no": 13,
+          "qty": 25
+        },
+        {
+          "line_no": 14,
+          "qty": 20
+        },
+        {
+          "line_no": 15,
+          "qty": 25
+        },
+        {
+          "line_no": 16,
+          "qty": 40
+        },
+        {
+          "line_no": 17,
+          "qty": 25
+        },
+        {
+          "line_no": 18,
+          "qty": 10
+        },
+        {
+          "line_no": 19,
+          "qty": 50
+        },
+        {
+          "line_no": 20,
+          "qty": 40
+        },
+        {
+          "line_no": 21,
+          "qty": 25
+        },
+        {
+          "line_no": 22,
+          "qty": 50
+        },
+        {
+          "line_no": 23,
+          "qty": 25
+        },
+        {
+          "line_no": 24,
+          "qty": 10
+        },
+        {
+          "line_no": 25,
+          "qty": 20
+        },
+        {
+          "line_no": 26,
+          "qty": 10
+        },
+        {
+          "line_no": 27,
+          "qty": 10
+        },
+        {
+          "line_no": 28,
+          "qty": 40
+        }
+      ]
+    },
+    {
+      "number": "GR-2026-1133",
+      "po_number": "PO-2026-0436",
+      "date": "2026-10-15",
+      "lines": [
+        {
+          "line_no": 1,
+          "qty": 25
+        },
+        {
+          "line_no": 2,
+          "qty": 12
+        },
+        {
+          "line_no": 3,
+          "qty": 10
+        }
+      ]
+    },
+    {
+      "number": "GR-2026-1134",
+      "po_number": "PO-2026-0438",
+      "date": "2026-10-15",
+      "lines": [
+        {
+          "line_no": 1,
+          "qty": 15
+        },
+        {
+          "line_no": 2,
+          "qty": 30
+        }
+      ]
+    },
+    {
+      "number": "GR-2026-1136",
+      "po_number": "PO-2026-0440",
+      "date": "2026-10-16",
+      "lines": [
+        {
+          "line_no": 1,
+          "qty": 50
+        },
+        {
+          "line_no": 2,
+          "qty": 10
+        }
+      ]
+    },
+    {
+      "number": "GR-2026-1137",
+      "po_number": "PO-2026-0441",
+      "date": "2026-10-16",
+      "lines": [
+        {
+          "line_no": 1,
+          "qty": 30
+        },
+        {
+          "line_no": 2,
+          "qty": 30
+        }
+      ]
+    }
+  ],
+  "purchase_invoices": [
+    {
+      "booking_id": "INK-2026-00731",
+      "supplier_id": "CR-2001",
+      "invoice_number": "RIJ-2026-10388",
+      "invoice_date": "2026-09-25",
+      "due_date": "2026-10-25",
+      "po_number": "PO-2026-0398",
+      "subtotal": 559.0,
+      "vat": 117.39,
+      "total": 676.39,
+      "iban": "NL26ABNA0518822731",
+      "booked_at": "2026-09-29T10:14:00+02:00",
+      "booked_by": "M. de Vries",
+      "status": "paid"
+    }
+  ],
+  "next_booking_no": 732
+}

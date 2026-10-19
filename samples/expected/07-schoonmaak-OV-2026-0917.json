@@ -1,0 +1,46 @@
+{
+  "supplier": {
+    "name": "Schoonmaakbedrijf Oost-Veluwe",
+    "address": "Industrieweg 14, 8131 VZ Wijhe",
+    "vat_number": "NL004417263B53",
+    "kvk_number": "71820455",
+    "iban": "NL57RABO0129863405"
+  },
+  "invoice_number": "OV-2026-0917",
+  "invoice_date": "2026-10-01",
+  "due_date": "2026-10-15",
+  "po_reference": null,
+  "language": "nl",
+  "lines": [
+    {
+      "supplier_article_code": null,
+      "description": "Schoonmaak kantoor en kantine, september 2026",
+      "unit": "maand",
+      "quantity": 1,
+      "unit_price": 685.0,
+      "line_total": 685.0,
+      "vat_rate": 21
+    },
+    {
+      "supplier_article_code": null,
+      "description": "Extra reiniging magazijnvloer 22-09-2026",
+      "unit": "uur",
+      "quantity": 6,
+      "unit_price": 42.5,
+      "line_total": 255.0,
+      "vat_rate": 21
+    }
+  ],
+  "subtotal": 940.0,
+  "vat_lines": [
+    {
+      "rate": 21,
+      "base": 940.0,
+      "amount": 197.4
+    }
+  ],
+  "total": 1137.4,
+  "currency": "EUR",
+  "reverse_charge": false,
+  "notes": null
+}

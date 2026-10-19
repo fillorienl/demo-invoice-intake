@@ -1,0 +1,46 @@
+{
+  "supplier": {
+    "name": "Rheinland Verbindungstechnik GmbH",
+    "address": "Hansaallee 233, 40549 Düsseldorf, Germany",
+    "vat_number": "DE312845097",
+    "kvk_number": null,
+    "iban": "DE21370100500582749163"
+  },
+  "invoice_number": "RVT-INV-2026-3318",
+  "invoice_date": "2026-10-13",
+  "due_date": "2026-11-12",
+  "po_reference": "PO-2026-0427",
+  "language": "en",
+  "lines": [
+    {
+      "supplier_article_code": "RVT-912-0620",
+      "description": "Socket head cap screw M6x20 DIN912 A2, box of 200",
+      "unit": "box",
+      "quantity": 25,
+      "unit_price": 11.8,
+      "line_total": 295.0,
+      "vat_rate": 0
+    },
+    {
+      "supplier_article_code": "RVT-125-06",
+      "description": "Flat washer M6 DIN125 A2, box of 500",
+      "unit": "box",
+      "quantity": 20,
+      "unit_price": 7.9,
+      "line_total": 158.0,
+      "vat_rate": 0
+    }
+  ],
+  "reverse_charge": true,
+  "notes": "VAT reverse charged - Article 196 Directive 2006/112/EC",
+  "subtotal": 453.0,
+  "vat_lines": [
+    {
+      "rate": 0,
+      "base": 453.0,
+      "amount": 0.0
+    }
+  ],
+  "total": 453.0,
+  "currency": "EUR"
+}

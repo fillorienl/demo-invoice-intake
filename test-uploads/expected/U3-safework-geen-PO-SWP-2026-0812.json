@@ -1,0 +1,46 @@
+{
+  "supplier": {
+    "name": "SafeWork PPE B.V.",
+    "address": "Atoomweg 52, 3542 AB Utrecht",
+    "vat_number": "NL853390128B01",
+    "kvk_number": "30195562",
+    "iban": "NL49INGB0007731590"
+  },
+  "invoice_number": "SWP-2026-0812",
+  "invoice_date": "2026-10-16",
+  "due_date": "2026-10-30",
+  "po_reference": null,
+  "language": "nl",
+  "lines": [
+    {
+      "supplier_article_code": "SW-OD-SNR37",
+      "description": "Oordoppen SNR 37, doos a 200 paar",
+      "unit": "doos",
+      "quantity": 15,
+      "unit_price": 24.5,
+      "line_total": 367.5,
+      "vat_rate": 21
+    },
+    {
+      "supplier_article_code": "SW-HELM-WIT",
+      "description": "Veiligheidshelm EN397, wit",
+      "unit": "st",
+      "quantity": 30,
+      "unit_price": 8.95,
+      "line_total": 268.5,
+      "vat_rate": 21
+    }
+  ],
+  "subtotal": 636.0,
+  "vat_lines": [
+    {
+      "rate": 21,
+      "base": 636.0,
+      "amount": 133.56
+    }
+  ],
+  "total": 769.56,
+  "currency": "EUR",
+  "reverse_charge": false,
+  "notes": null
+}

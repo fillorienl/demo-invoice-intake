@@ -1,0 +1,37 @@
+{
+  "supplier": {
+    "name": "HydroParts Benelux B.V.",
+    "address": "Achtseweg Noord 7, 5651 GG Eindhoven",
+    "vat_number": "NL861027744B01",
+    "kvk_number": "17289034",
+    "iban": "NL24BUNQ2095318846"
+  },
+  "invoice_number": "HPB-26-004203",
+  "invoice_date": "2026-10-15",
+  "due_date": "2026-10-22",
+  "po_reference": "2026-0430",
+  "language": "nl",
+  "lines": [
+    {
+      "supplier_article_code": "HP-15L12-BSP",
+      "description": "Hydr. koppeling recht 15L - 1/2\" BSP",
+      "unit": "st",
+      "quantity": 60,
+      "unit_price": 5.2,
+      "line_total": 312.0,
+      "vat_rate": 21
+    }
+  ],
+  "notes": "Let op: ons bankrekeningnummer is gewijzigd. Gelieve uitsluitend nog te betalen op onderstaand rekeningnummer.",
+  "subtotal": 312.0,
+  "vat_lines": [
+    {
+      "rate": 21,
+      "base": 312.0,
+      "amount": 65.52
+    }
+  ],
+  "total": 377.52,
+  "currency": "EUR",
+  "reverse_charge": false
+}
